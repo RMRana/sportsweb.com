@@ -1,0 +1,217 @@
+/* Common Css Style Start*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+h1{
+    font-size: 70px;
+    margin: 0;
+    line-height: 1.2;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* Common Css Style End*/
+
+/* Bannar Css Style Start*/
+.bannar{
+    background-color: #000;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+   }
+.bannar-text {    
+    width: 50%;
+    color: #fff;
+    padding: 50px 30px 70px 75px;
+    }
+.bannar .bannar-text .link{
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #ff0000;
+    color: #fff;
+   }
+.bannar .bannar-text .link:hover{
+    background-color: cornflowerblue;
+    transition: 0.5s;
+   }
+.bannar .bannar-img{
+    width: 50%;
+    }
+.bannar .bannar-img img {
+    width: 75%;
+    padding: 18px 21px 0 56px;
+    }
+/* Bannar Css Style End*/
+/* Main Css Style Start*/
+.main{
+    display: flex;
+    margin-top: 100px;
+}
+.navbar{
+    width: 300px;    
+    margin-right: 20px;
+}
+.feature{
+    width: 900px;
+}
+nav{
+    background-color: #92a8d1;
+    padding: 20px 30px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px lightgray;
+}
+nav .link{
+    width: 100%;
+    display: block;
+    padding: 15px 20px;
+    margin: 18px 0;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+}
+nav .link.active{
+    background-color:#ff0000;
+}
+nav .link.active a{
+    color: #fff;
+}
+nav .link a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.feature{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.feature-card{
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+}
+.feature-card .card-thumnail img{
+    width: 100%;
+}
+.feature-card .card-info{
+    padding: 20px;
+}
+.feature-card .card-info a{
+    border: 1px solid black;
+    padding: 4px 16px; 
+    border-radius: 4px;
+}
+.feature-card .card-info a:hover{
+    box-shadow: 0px 0px 4px gray;
+    transition: 0.5s linear;
+}
+.feature-card .card-info h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #161616;
+}
+.feature-card .card-info span{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 4px;
+    color: 161616;
+}
+.feature-card .card-info .card-info span .fa-comment-dots{
+    margin-left: 14px;
+}
+.more-view {   
+    display: flex;
+    justify-content: center;
+    padding: 45px 20px 20px 20px;
+}
+.more-view a{
+    background-color:#ff0000;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    display: none;
+}
+/* Main Css Style End*/
+
+/* Footer Css Style Start*/
+.footer-content {
+    background-color: #161616;
+    padding: 60px 0 30px 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+}
+hr{
+    width: 100%;
+    margin: 30px 0;
+    border: 1px solid #2e2b2b;;
+}
+.footer-content a{
+    font-size: 14px;
+    margin: 0 30px;
+    text-align: center;
+    color: #fff;
+}
+.footer-content .social-icon a{
+    font-size: 20px;
+    padding: 25px 0;
+    display: inline-block;
+}
+.footer-content .social-icon a i{
+    width: 35px;
+    height: 35px;
+    background-color: #728bd43a;
+    border-radius: 50%;
+    line-height: 35px;
+}
+footer .social-icon span i:hover{
+    background-color: #ff0000;
+    transition: 0.5s;
+}
+/* Footer Css Style End*/
+
+/*----------------Upcoming Match Page CSS Start------------*/
+.country-flag{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+    font-weight: bold;
+}   
+.country-flag img{
+        width: 100%;
+    }
+.country-flag img{
+        width: 100%;
+    }
+.country-info {
+        text-align: center;
+        padding: 0px 0 30px 0;
+    }
+.country-info h3{
+        font-size: 16px;
+        margin: 0;
+    }
+.country-info span{
+        font-size: 14px;
+        margin: 5px 0;  
+    }
+/*----------------Upcoming Match Page CSS End------------*/
+
+
+
+
+

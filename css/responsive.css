@@ -1,0 +1,187 @@
+/* Bannar Css Style Mobile Media Quary start*/
+@media only screen and (max-width: 480px) { 
+    .bannar {        
+        flex-direction: column;
+    }
+    .bannar-text {
+        width: 75%;   
+        padding: 75px 30px;
+        text-align: center;
+    }    
+    h1 {
+        font-size: 100px;        
+    }
+    p {
+        font-size: 25px;
+    }
+    .bannar .bannar-text .link {
+        padding: 20px 58px;
+        font-size: 30px;        
+    }
+    .bannar .bannar-img {
+        width: 75%;
+        text-align: center;
+    }
+    .main {       
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .navbar {
+        width: 100%;
+        margin-right: 0;
+    }
+    nav {
+        width: 300px;
+        background-color: #fff;        
+        display: block;
+        margin: auto;
+    }
+    nav .link {        
+        border: 1px solid black;
+    }
+    nav .link a {    
+        font-size: 24px;
+    }
+    .feature {
+        width: 100%;
+        padding: 25px 35px;
+        grid-template-columns: repeat(1, 1fr);
+    }  
+    .feature-card .card-info h3 {
+        font-size: 40px;
+        margin: 10px 0;       
+    }  
+    .feature-card .card-info a {
+        padding: 15px 44px;
+        font-size: 34px;
+        display: inline-block;
+    }    
+    .feature-card .card-info span {
+        font-size: 35px;
+        margin-right: 25px;       
+    }
+    .footer-content {      
+        width: 1200px;
+    }  
+    h2 {
+        font-size: 50px;
+    } 
+    .footer-content a {
+        margin: 22px 30px;
+        display: block;
+        font-size: 30px;
+    }
+    .footer-content .social-icon a i {
+        width: 60px;
+        height: 60px;       
+        line-height: 61px;
+    }
+    .footer-content .social-icon a {
+        font-size: 28px;
+    }
+}    
+
+    /* Tablet divise resposive */
+
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+    .main {       
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .navbar {
+        width: 100%;
+        margin-right: 0;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        background-color: #fff;
+        box-shadow: none;
+    }
+    nav .link {        
+        border: 1px solid black;
+        padding: 25px;
+    }
+    nav .link a {            
+        font-size: 26px;
+    }
+    .feature {
+        width: 100%;
+        padding: 25px 35px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }  
+    .feature-card .card-info a {
+        padding: 8px 24px;
+        font-size: 20px;
+    }
+    .feature-card .card-info h3 {
+        font-size: 24px;
+    } 
+    .feature-card .card-info span {
+        font-size: 22px;          
+    }
+    .more-view a { 
+        padding: 16px 40px;
+        display: block;
+        font-size: 21px;
+    } 
+    .footer-content {      
+        width: 1200px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .footer-content a {
+        margin: 12px 73px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    hr {
+        margin: auto;
+        display: block;
+        width: 93%;
+        margin-bottom: 25px;
+    }
+    .footer-content .social-icon a i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .footer-content .social-icon a {
+        font-size: 28px;
+    }
+}
+
+/*----------------Upcoming Match Page CSS Start------------*/
+
+/* Bannar Css Style Mobile Media Quary start*/
+@media only screen and (max-width: 480px) { 
+
+    strong {
+        font-size: 50px;
+    }
+    .country-info h3 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .country-info span {
+        font-size: 25px;
+    }
+    }
+        /* Tablet divise resposive */
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+
+    strong {
+        font-size: 38px;
+    }
+    .country-info h3 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .country-info span {
+        font-size: 20px;
+    }
+}
+
