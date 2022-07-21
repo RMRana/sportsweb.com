@@ -156,6 +156,15 @@
     }
 }
 
+     /* Destop or larges Screen resposive */
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .footer-content {      
+        width: 1200px;
+    }
+
+}
+
 /*----------------Upcoming Match Page CSS Start------------*/
 
 /* Bannar Css Style Mobile Media Quary start*/
