@@ -61,11 +61,8 @@ a{
     margin-top: 100px;
 }
 .navbar{
-    width: 300px;    
+    width: 400px;    
     margin-right: 20px;
-}
-.feature{
-    width: 900px;
 }
 nav{
     background-color: #92a8d1;
